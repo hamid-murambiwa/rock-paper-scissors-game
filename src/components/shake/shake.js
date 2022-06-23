@@ -26,8 +26,8 @@ function Shake() {
 
   const triggerFade = (opR, opL) => {
     setFade((prevState) => !prevState);
-    setTimeout(() => { setOptionRight(opR); }, 1400);
-    setTimeout(() => { setOptionLeft(opL); }, 1400);
+    setTimeout(() => { setOptionRight(opR); }, 1000);
+    setTimeout(() => { setOptionLeft(opL); }, 1000);
     setTimeout(() => { setFade(false); }, 1500);
     setTimeout(() => { document.querySelectorAll('#p-btn').forEach((e) => { e.style.display = 'flex'; }); }, 1500);
     setTimeout(() => { setPick(true); }, 1500);
