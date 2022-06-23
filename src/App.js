@@ -1,9 +1,9 @@
-import Container from "./components/container";
+import Container from './components/container';
 
 function App() {
-    return (
-        <Container />
-    )
+  return (
+    <Container />
+  );
 }
 
 export default App;

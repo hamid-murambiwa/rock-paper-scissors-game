@@ -1,6 +1,6 @@
 body {
-background-color: rgb(24 35 65);
-color: white;
+  background-color: rgb(24 35 65);
+  color: white;
 }
 
 .scores {
@@ -13,6 +13,14 @@ color: white;
   padding: 20px;
   margin-top: 10px;
   gap: 10px;
+}
+
+.scores div h2 {
+  margin: 0 !important;
+}
+
+.sub-reset p {
+  margin: 0;
 }
 
 .scores-con {
@@ -40,11 +48,11 @@ color: white;
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 
 .bottom-con {
@@ -59,7 +67,7 @@ color: white;
 #begin {
   position: fixed;
   bottom: 50vh;
-  background-color: #B3541E;
+  background-color: #b3541e;
   color: white;
   border: none;
   padding: 10px;
@@ -67,106 +75,106 @@ color: white;
   font-size: larger;
 }
 
-  .fadedClass {
-    width: min-content;
-    animation-name: left-shake;
-    animation-duration: 0.5s;
-    animation-iteration-count: 3;
-    padding: 100px;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  
-  @keyframes left-shake {
-    0% {
-      position: relative;
-      margin-top: 0vh;
-      transform: rotate(0deg);
-    }
-  
-    50% {
-      position: relative;
-      margin-top: -15vh;
-      transform: rotate(-90deg);
-    }
+.fadedClass {
+  width: min-content;
+  animation-name: left-shake;
+  animation-duration: 0.5s;
+  animation-iteration-count: 3;
+  padding: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
 
-    100% {
-      position: relative;
-      margin-top: 0vh;
-      transform: rotate(0deg);
-    }
-  }
-  
-  #btn {
-    position: fixed;
-    bottom: 0;
-  }
-  
-  .fadedClass2 {
-    animation-name: right-shake;
-    margin-left: 3vw;
-    animation-duration: 0.5s;
-    animation-iteration-count: 3;
-    padding: 100px;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  
-  @keyframes right-shake {
-    0% {
-      position: relative;
-      margin-top: 0vh;
-      transform: rotate(0deg);
-    }
-  
-    50% {
-      position: relative;
-      margin-top: -15vh;
-      transform: rotate(90deg);
-    }
-
-    100% {
-      position: relative;
-      margin-top: 0vh;
-      transform: rotate(0deg);
-    }
-  }
-  
-  .visibleClass {
-    padding-bottom: 20px;
-    padding-top: 20px;
-    padding-left: 40px;
-    padding-right: 40px;
-    width: min-content;
-    white-space: nowrap;
-  }
-  
-  .visible {
-    display: flex;
-    justify-content: center;
-    width: 100%;
+@keyframes left-shake {
+  0% {
+    position: relative;
+    margin-top: 0;
+    transform: rotate(0deg);
   }
 
-  .hidden {
-    display: none;
+  50% {
+    position: relative;
+    margin-top: -15vh;
+    transform: rotate(-90deg);
   }
 
-  .ani-con {
-    display: flex;
+  100% {
+    position: relative;
+    margin-top: 0;
+    transform: rotate(0deg);
+  }
+}
+
+#btn {
+  position: fixed;
+  bottom: 0;
+}
+
+.fadedClass2 {
+  animation-name: right-shake;
+  margin-left: 3vw;
+  animation-duration: 0.5s;
+  animation-iteration-count: 3;
+  padding: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@keyframes right-shake {
+  0% {
+    position: relative;
+    margin-top: 0;
+    transform: rotate(0deg);
   }
 
-  .a-con {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    min-width: 20vw;
+  50% {
+    position: relative;
+    margin-top: -15vh;
+    transform: rotate(90deg);
   }
 
-  .a-con button {
-    background-color: transparent;
-    border: none;
+  100% {
+    position: relative;
+    margin-top: 0;
+    transform: rotate(0deg);
   }
+}
+
+.visibleClass {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  width: min-content;
+  white-space: nowrap;
+}
+
+.visible {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.hidden {
+  display: none;
+}
+
+.ani-con {
+  display: flex;
+}
+
+.a-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 20vw;
+}
+
+.a-con button {
+  background-color: transparent;
+  border: none;
+}
 
 #rock {
   width: 100px;
@@ -200,15 +208,17 @@ color: white;
 }
 
 @keyframes rock-anim {
-  0%{
+  0% {
     opacity: 1;
     transform: rotateX(90deg);
   }
-  50%{
+
+  50% {
     opacity: 0.5;
     transform: rotateX(0deg);
   }
-  100%{
+
+  100% {
     display: none;
     opacity: 0;
     transform: rotateX(90deg);
@@ -224,15 +234,17 @@ color: white;
 }
 
 @keyframes paper-anim {
-  0%{
+  0% {
     opacity: 1;
     transform: rotateX(90deg);
   }
-  50%{
+
+  50% {
     opacity: 0.5;
     transform: rotateX(0deg);
   }
-  100%{
+
+  100% {
     display: none;
     opacity: 0;
     transform: rotateX(90deg);
@@ -248,15 +260,17 @@ color: white;
 }
 
 @keyframes scissors-anim {
-  0%{
+  0% {
     opacity: 1;
     transform: rotateX(90deg);
   }
-  50%{
+
+  50% {
     opacity: 0.5;
     transform: rotateX(0deg);
   }
-  100%{
+
+  100% {
     display: none;
     opacity: 0;
     transform: rotateX(90deg);
@@ -273,7 +287,7 @@ color: white;
 }
 
 #p-btn:hover {
-  background-color: #9EB23B;
+  background-color: #9eb23b;
   color: white;
 }
 
@@ -315,6 +329,7 @@ color: white;
   margin-bottom: 15px;
 }
 
-.sub-reset p {
-  margin: 0;
+.res-btn {
+  background-color: transparent;
+  border: none;
 }

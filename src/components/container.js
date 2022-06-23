@@ -1,9 +1,9 @@
-import Shake from "./shake/shake";
+import Shake from './shake/shake';
 
 function Container() {
-    return (
-        <Shake />
-    )
+  return (
+    <Shake />
+  );
 }
 
 export default Container;
