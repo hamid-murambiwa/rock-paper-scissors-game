@@ -5,7 +5,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://62b47acdc92d6c0009b969c5--comfy-empanada-125d36.netlify.app/)
+[Live Demo Link](https://development--comfy-empanada-125d36.netlify.app/)
 
 ## Built With
 
