@@ -1,5 +1,5 @@
 # Rock Paper Scissors
-> A simple rock paper game
+> A simple rock paper scissors game
 
 ![an image of the portfolio mobile page  webpage](https://user-images.githubusercontent.com/71644515/175320848-7d7d1b0c-2251-4522-aa04-fd653a24420b.png)
 
